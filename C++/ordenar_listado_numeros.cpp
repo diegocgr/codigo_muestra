@@ -45,7 +45,6 @@ int main(void){
         printf("\n\n");
     }else if(option==2){
         for(i=0; i<10; i++){
-
             for(j=i+1; j<10; j++){
                 if(lista[i]>lista[j]){
                     aux=lista[i];
