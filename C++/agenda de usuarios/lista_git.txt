@@ -1,0 +1,14 @@
+Nombre: Diego
+Primer apellido: Guerra
+Segundo apellido: Reyes
+Direccion: Europa
+Telefono: 666123478
+Fecha nacimiento: 13/11/1993
+
+Nombre: Ricardo
+Primer apellido: Gil
+Segundo apellido: Ferrer
+Direccion: Varsovia
+Telefono: 612438796
+Fecha nacimiento: 7/1/1963
+
