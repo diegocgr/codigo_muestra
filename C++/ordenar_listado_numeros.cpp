@@ -3,7 +3,7 @@
 
 int main(void){
     int lista[10];
-    int n, option, aux, cont;
+    int n, option, aux, cont, i, j;
 
     printf("***PROGRAMA PARA ORDENAR 10 NUMEROS ENTEROS DE MENOR A MAYOR O AL REVES***\n\n");
 
