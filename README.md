@@ -1,4 +1,4 @@
-# Códigos de ejercicios de DAW1-2
+# Código de programas/ejercicios de DAW1-2
 
 ### C++
   - **ordenar_listado_numeros:** orden ascendente o descendente de un listado de 10 números introducidos por el usuario
