@@ -1,0 +1,182 @@
+body{
+    /* background-color: #080812;
+    background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png"); */
+
+    background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: black;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif !important;
+    overflow-x: hidden;
+}
+
+h1, h2{
+    color: white;
+}
+
+.imgEscritorio{
+    width: 8%;
+}
+
+.imgMovil{
+    width: 25%;
+}
+
+.tableMovil{
+    color: white !important;
+}
+
+.cajaComentario{
+    /* padding: 5%; */
+    border: 0.5px solid white;
+}
+
+::placeholder{
+    font-size: 20px;
+    color: black !important;
+}
+
+input{
+    background-color: wheat !important;
+    font-size: 20px !important;
+}
+
+button{
+    font-size: 20px !important;
+    border-radius: 5px;
+    position: relative;
+	transition: transform 0.1s linear, box-shadow 0.1s linear;
+	z-index: 10;
+    border: none !important;
+}
+
+table{
+    color: black !important;
+    background-color: wheat !important;
+    /* background-color: transparent; */
+    border: 2px solid tomato !important;
+}
+
+/* table, th{
+    border: 1px solid tomato !important;
+} */
+
+/* td{} */
+
+/* table tr{
+    border: none !important;
+    height: 35px;
+} */
+
+th{
+    text-align: center;
+}
+
+td{
+    /* border-bottom: 1px solid tomato !important; */
+    border-top: 1px solid tomato !important;
+    /* border: 1px solid tomato !important; */
+}
+
+tr:hover{
+    background-color: tomato !important;
+    color: black !important;
+}
+
+/* table td{
+    border: none !important;
+} */
+
+#fechaID{
+    width: 150px;
+}
+
+#nombreID{
+    width: 150px;
+}
+
+#auxID{
+    width: 125px;
+}
+
+label{
+    color: tomato;
+    font-weight: bold;
+}
+
+iframe{
+    border: 5px solid tomato !important;
+}
+
+/* #aviso{
+    color: green !important;
+} */
+
+/* ------------------------------------------------------------------------ */
+
+button:active {
+	transform: translate(4px, 4px);
+	box-shadow: 0 0 0 rebeccapurple;
+}
+
+button:focus {
+	outline: none;
+}
+
+.particle {
+	--x: 0;
+	--y: 0;
+	background-color: rebeccapurple;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 5px;
+	width: 5px;
+	z-index: -1;
+}
+
+.particle.move {
+	animation: move 1000ms linear forwards;
+}
+
+@keyframes move {
+	to {
+		transform: translate(var(--x), var(--y));
+	}
+	
+	95% {
+		opacity: 1;
+	}
+	
+	100% {
+		opacity: 0;
+	}
+}
+
+/* ------------------------------------------------------------------------ */
+
+.ml16{
+    color: white;
+    /* text-transform: uppercase;
+    letter-spacing: 0.15em; */
+    overflow: hidden;
+    font-size: 25px;
+    font-weight: bold;
+    /* border: 1px solid green; */
+    display: none;
+    text-align: center;
+    /* background: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b); */
+    background: #EB5757;  /* fallback for old browsers */
+    background: linear-gradient(to right, #000000, #EB5757); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 100px;
+}
+
+.mostrar{
+    display: block;
+}
+
+/* .ml16 .letter{
+    display: inline-block;
+    line-height: 1em;
+} */
+
